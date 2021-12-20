@@ -1,0 +1,84 @@
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  color:#5a5a5a ;
+  align-items: flex-end;
+}
+.conteudo h1{
+  font-size: 2rem;
+  text-align: end;
+  width: 30rem;
+}
+.conteudo p{
+  width: 30rem;
+  font-size: 1.15rem;
+  text-align: end;
+}
+.conteudo-1{
+  order: 2;
+  align-items:start;
+}
+.conteudo-1 p{
+  text-align: start;
+}
+.cardapio{
+  position: relative;
+}
+.cardapio h2{
+  text-align: center;
+  font-size: 4rem;
+  position: absolute;
+  top: 0px;
+  left: 42%;
+  right: 42%;
+  color: #fff;
+  text-shadow: 2px 2px black;
+  z-index: 1;
+}
+.carousel-caption{
+  font-size: 1rem;
+  text-shadow: 1px 1px black;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.carousel-caption h3{ 
+  font-size: 2rem;
+}
+.carousel-caption span{
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+section.container-principal{
+  background: white;
+}
+.carousel{
+  width: 70vw;
+  margin: 0 auto;
+}
+.conteudo-contato{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  color:#5a5a5a ;
+  align-items: center;
+  padding: 20px;
+}
+.conteudo-contato h2{
+  font-size: 2.5rem;
+  text-align: end;
+  /*width: 30rem;*/
+  text-align: center;
+  margin-bottom: 10px;
+}
+.conteudo-contato p{
+  width: 30rem;
+  font-size: 1.15rem;
+  text-align: start;
+}
+.texto-contato{
+  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
