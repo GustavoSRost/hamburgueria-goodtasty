@@ -21,11 +21,16 @@ a{
 }
 ul{
   list-style: none;
+  margin-block-start: 0;
+  padding-inline-start: 0;
 }
 img{
   display: block;
   max-width: 100%;
   margin: 0;
+}
+h2{
+  font-size: 2rem;
 }
 .container-principal{
   display: grid;

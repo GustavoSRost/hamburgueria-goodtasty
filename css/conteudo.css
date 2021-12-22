@@ -8,12 +8,13 @@
 .conteudo h1{
   font-size: 2rem;
   text-align: end;
-  width: 30rem;
+  width: 21rem;
 }
 .conteudo p{
   width: 30rem;
   font-size: 1.15rem;
   text-align: end;
+  margin-top: 20px;
 }
 .conteudo-1{
   order: 2;
@@ -29,6 +30,9 @@
   text-align: center;
   font-size: 4rem;
   position: absolute;
+  width:15rem;
+  line-height: 3rem;
+  margin-top: 20px;
   top: 0px;
   left: 42%;
   right: 42%;
@@ -38,9 +42,9 @@
 }
 .carousel-caption{
   font-size: 1rem;
-  text-shadow: 1px 1px black;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  text-shadow: 2px 2px black;
+  border-radius:0px;
+  padding: 100px;
 }
 .carousel-caption h3{ 
   font-size: 2rem;
@@ -56,6 +60,12 @@ section.container-principal{
   width: 70vw;
   margin: 0 auto;
 }
+.carousel-control-prev{
+  background: rgba(0, 0, 0, 0.5);
+}
+.carousel-control-next{
+  background: rgba(0, 0, 0, 0.5);
+}
 .conteudo-contato{
   display: flex;
   flex-direction: column;
@@ -65,7 +75,6 @@ section.container-principal{
   padding: 20px;
 }
 .conteudo-contato h2{
-  font-size: 2.5rem;
   text-align: end;
   /*width: 30rem;*/
   text-align: center;

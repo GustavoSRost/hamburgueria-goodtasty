@@ -1,5 +1,4 @@
 .header{
-  background: #000;
   display: flex;
   flex-direction: column;
   padding: 20px 0px;
@@ -22,6 +21,9 @@
 .header-nav li a{
   padding: 5px;
 }
-#btn-mobile{
-  display: none;
+.navbar-toggler {
+  color: white;
+}
+.navbar{
+  flex-direction: column;
 }
