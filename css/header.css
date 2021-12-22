@@ -27,3 +27,19 @@
 .navbar{
   flex-direction: column;
 }
+@media (max-width: 700px) {
+  .header-nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width:1000px){
+  .header-nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+  }
+}

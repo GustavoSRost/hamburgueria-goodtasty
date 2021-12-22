@@ -38,3 +38,28 @@ h2{
   align-items: center;
   gap: 30px;
 }
+@media (max-width:700px) {
+  h2{
+    font-size: 1.7rem;
+  }
+  iframe{
+    width: auto;
+    height: auto;
+    margin: auto auto;
+  }
+  img{
+    height:40h;
+  }
+}
+@media (max-width:1000px){
+  h2{
+    font-size: 1.7rem;
+  }
+  iframe{
+    width: 100vw;
+    height: auto;
+  }
+  img{
+    height:40h;
+  }
+}
